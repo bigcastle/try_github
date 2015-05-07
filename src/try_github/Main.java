@@ -11,11 +11,11 @@ public class Main {
 
 		int addResult,subResult;
 
-		addResult = Add.add(a,b);
+		addResult = add.add(a,b);
 		System.out.println(addResult);
 
 
-		subResult = Sub.sub(a,b);
+		subResult = sub.sub(a,b);
 
 		System.out.println(subResult);
 
