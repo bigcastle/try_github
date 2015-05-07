@@ -6,18 +6,21 @@ public class Main {
 		final int a =10;
 		final int b=5;
 
+		Sub sub = new Sub();
+		Add add =new Add();
+
 		int addResult,subResult;
 
-		addResult = add(a,b);
+		addResult = Add.add(a,b);
 		System.out.println(addResult);
 
 
-
-
-		subResult =sub(a,b);
+		subResult = Sub.sub(a,b);
 
 		System.out.println(subResult);
 
 	}
+
+
 
 }
