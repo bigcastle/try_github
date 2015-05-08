@@ -7,5 +7,4 @@ public class Add {
 		addResult = a + b;
 		return addResult;
 	}
-
 }
